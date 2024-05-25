@@ -1,0 +1,28 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milad145/azure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milad145/azure/issues"
+  },
+  "homepage": "https://github.com/milad145/azure#readme",
+  "dependencies": {
+    "@azure/msal-node": "^2.8.1",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
